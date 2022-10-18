@@ -1,8 +1,9 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
-double calcAverage(const std::vector<int>& values){
+double calcAverage(const vector<int>& values){
     int sum = 0;
     for(int value:values)
         sum+=value;

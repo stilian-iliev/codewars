@@ -1,8 +1,9 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
-bool betterThanAverage(std::vector<int> classPoints, int yourPoints) {
+bool betterThanAverage(vector<int> classPoints, int yourPoints) {
     int sum = 0;
     for(int points: classPoints) {
         sum += points;
